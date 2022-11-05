@@ -23,7 +23,7 @@
 	--dark-border: hsla(228, 34%, 66%, 0.4);
 
 	--light-topbg-pattern: hsl(225, 100%, 98%);
-	--light-cardbg: hsl(227, 47%, 96%);
+	--light-cardbg: hsl(227, 47%, 93%);
 	--light-card-hover: hsl(225, 35%, 89%);
 	--light-text-grayish: hsl(228, 12%, 44%);
 	--light-text-blue: hsl(230, 17%, 14%);
@@ -247,7 +247,12 @@ h2 {
 				height: 0.5rem;
 				left: 0;
 				top: 0;
-				background: linear-gradient(225deg, var(--instagram-end), var(--instagram-middle) 50%, var(--instagram-start) 100%);
+				background: linear-gradient(
+					225deg,
+					var(--instagram-end),
+					var(--instagram-middle) 50%,
+					var(--instagram-start) 100%
+				);
 			}
 		}
 
