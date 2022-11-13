@@ -24,13 +24,6 @@
   --light-text-grayish: hsl(228, 12%, 44%);
   --light-text-blue: hsl(230, 17%, 14%);
   --light-border: hsl(228, 12%, 44%);
-  --background: var(--white);
-  --text-color: var(--light-text-blue);
-  --text-color-grey: var(--light-text-grayish);
-  --card-bg: var(--light-cardbg);
-  --card-bg-hover: var(--light-card-hover);
-  --toggle-bg: var(--light-toggle);
-  --toggle-border: var(--light-border);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -92,6 +85,7 @@ body {
   min-height: 100vh;
   background: var(--background);
   color: var(--text-color);
+  padding-bottom: 1rem;
 }
 
 h1 {
@@ -350,7 +344,7 @@ h2 {
   margin-bottom: 0;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 40em) {
   h1 {
     font-size: 2.8rem;
   }
